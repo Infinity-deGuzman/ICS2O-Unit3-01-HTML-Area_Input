@@ -15,7 +15,7 @@ function enterClicked () {
   const height = parseInt(document.getElementById("trapezoid-height").value)
 
   // process
-  const area = ((aBase + bBase) / 2) * h
+  const area = ((aBase + bBase) / 2) * height
 
   //output
   document.getElementById('area').innerHTML = 'The area is: ' + area + 'mm²'
