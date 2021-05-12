@@ -10,13 +10,13 @@ function enterClicked () {
   // this code will calculate the area of the trapezoid
 
   // input
-  const a = parseInt(document.getElementById("a-base").value)
-  const b = parseInt(document.getElementById("b-base").value)
+  const aBase = parseInt(document.getElementById("a-base").value)
+  const bBase = parseInt(document.getElementById("b-base").value)
   const height = parseInt(document.getElementById("trapezoid-height").value)
 
   // process
-  const area = ((a + b) / 2) * h
+  const area = ((aBase + bBase) / 2) * h
 
   //output
-  document.getElementById('area').innerHTML = 'The area is: ' + area.toFixed(2) + 'mm²'
+  document.getElementById('area').innerHTML = 'The area is: ' + area + 'mm²'
 }
